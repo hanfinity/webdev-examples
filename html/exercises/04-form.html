@@ -9,7 +9,30 @@
   <body>
     <main>
       <form action="">
-        <!-- Add your code here -->
+        <h1>Form</h1>
+        <!-- Collect basic info about the user -->
+        <p>Name:
+          <input type="text" placeholder="Full Name" name="name" />
+        </p>
+        <p>Email:
+          <input type="text" placeholder="name@pdx.edu" name="email" />
+        </p>
+        <!-- field set for the favorite character question-->
+        <fieldset>
+          <legend>Favorite Character:</legend>
+          <input type="radio" name="character" value="Spongebob" />Spongebob<br/>
+          <input type="radio" name="character" value="Sandy" />Sandy<br/>
+          <input type="radio" name="character" value="Patrick" />Patrick<br/>
+        </fieldset>
+        <!-- fieldset to ask about fandom -->
+        <fieldset>
+          <legend>Are you a fan of the show?</legend>
+          <input type="checkbox" name="fandom" value="episodes"/>Yes, I have watched all the episodes!<br/>
+          <input type="checkbox" name="fandom" value="memes"/>Yes, it's got the best memes.<br/>
+        </fieldset>
+        <br/>
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="reset"/>
       </form>
     </main>
   </body>
