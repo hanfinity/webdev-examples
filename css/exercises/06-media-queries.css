@@ -2,5 +2,59 @@
   body {
     background: var(--green);
     color: var(--white);
+  } 
+  li {
+    display: inline;
   }
+} 
+
+@media (min-width: 512px) and (max-width: 1023px) {
+  body {
+    background: var(--orange);
+    color: var(--black);
+  } 
+  li {
+    display: inline;
+  }
+}
+
+@media (max-width: 511px) {
+  body {
+    background: purple;
+    color: white;
+  }
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: var(--black);
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  display: block;
+  margin: 10px 10px;
+  padding: 10px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: var(--gray1);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

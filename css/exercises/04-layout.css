@@ -19,7 +19,11 @@ header {
 }
 
 section {
+<<<<<<< HEAD
   display: inline-block;
+=======
+  float:left;
+>>>>>>> 3c8556d (rebasing)
   width: 75%;
   height: 300px;
   background-color: var(--orange);
